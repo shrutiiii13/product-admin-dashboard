@@ -49,7 +49,7 @@ export default function ProductTable({ products }) {
                 {product.category}
               </td>
               <td className="px-4 py-3 text-slate-700">
-                ${Number(product.price).toFixed(2)}
+                ₹{Number(product.price).toFixed(2)}
               </td>
               <td className="px-4 py-3 text-slate-700">{product.rating}</td>
               <td className="px-4 py-3 text-slate-700">{product.stock}</td>

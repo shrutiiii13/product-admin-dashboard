@@ -239,7 +239,7 @@ export default function ProductDetailsPage() {
             <div className="rounded-md bg-slate-50 p-3">
               <p className="text-xs text-slate-500">Price</p>
               <p className="font-semibold text-slate-900">
-                ${Number(product.price).toFixed(2)}
+                ₹{Number(product.price).toFixed(2)}
               </p>
             </div>
             <div className="rounded-md bg-slate-50 p-3">

@@ -30,7 +30,7 @@ export default function ProductCard({ product }) {
         </h3>
         <p className="text-sm capitalize text-slate-500">{product.category}</p>
         <div className="flex flex-wrap items-center gap-3 pt-1 text-sm text-slate-700">
-          <span className="font-medium">${Number(product.price).toFixed(2)}</span>
+          <span className="font-medium">₹{Number(product.price).toFixed(2)}</span>
           <span>★ {product.rating}</span>
           <span>Stock: {product.stock}</span>
         </div>
