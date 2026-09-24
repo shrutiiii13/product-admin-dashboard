@@ -145,8 +145,8 @@ AI tools were used for development assistance, scaffolding suggestions, debuggin
 
 ## Deployment
 
-- GitHub URL: _add your repository URL here_
-- Live Vercel URL: _add your deployment URL here_
+- GitHub URL: https://github.com/shrutiiii13/product-admin-dashboard
+- Live Vercel URL: https://product-admin-dashboard-liard-zeta.vercel.app
 
 ## Scripts
 
